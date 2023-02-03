@@ -1,0 +1,73 @@
+.table {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    max-width: 1500px;
+}
+
+.table > div {
+  margin: 2px;
+  background: powderblue;
+  padding: 5px;
+}
+
+.table > div:nth-child(3n+3) {
+  background: powderblue;
+}
+
+.table > div:nth-child(3n+3) {
+  background: powderblue;
+}
+
+.tableR {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    max-width: 800px;
+}
+
+.tableR > div {
+  margin: 2px;
+  background: powderblue;
+  padding: 5px;
+}
+
+.tableR > div:nth-child(3n+3) {
+  background: powderblue;
+}
+
+.tableR > div:nth-child(3n+3) {
+  background: powderblue;
+}
+
+.search{
+  margin-top: 5px;  
+  margin-left: 20px;
+  width: 150px;
+  height: 40px;
+}
+
+#date{
+  padding-top: 10px;
+}
+
+#categorie{
+  padding-top: 20px;
+}
+#categorie select{
+  width: 100px;
+}
+
+#statut{
+  padding-top: 20px;
+}
+#statut select{
+  width: 120px;
+}
+
+#action button{
+  width: 150px;
+  margin-left: 10px;
+}
+
+body{
+  background-color:linen;
+}

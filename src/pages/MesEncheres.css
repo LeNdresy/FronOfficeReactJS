@@ -1,0 +1,22 @@
+.table {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    max-width: 1500px;
+}
+
+.table > div {
+  margin: 2px;
+  background: powderblue;
+  padding: 5px;
+}
+
+.table > div:nth-child(3n+3) {
+  background: powderblue;
+}
+
+.table > div:nth-child(3n+3) {
+  background: powderblue;
+}
+
+
+
